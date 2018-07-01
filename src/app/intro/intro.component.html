@@ -1,0 +1,76 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Schematics in Angular Material</h1>
+  <mat-grid-list cols="1" rowHeight="150px">
+    <mat-grid-tile>
+      <mat-card class="card">
+        <mat-card-content>
+          <p>
+            Generate pre-made layout and template snippets of Material Components. Schematics help to make creating Material applications easier.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>
+            <h2 class="mat-h2">Install Schematics</h2>
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            It come packaged with Angular Material. If you run the following code line, it will automatically install Angular Material for you and run the install schematic.
+          </p>
+          <p>
+            <i>ng add @angular/material</i>
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title><h2 class="mat-h2">Generator: Navigation</h2></mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            It will create a new component that includes a toolbar with the app name and the side nav responsive based on Material breakpoints.
+          </p>
+          <p>
+            <i>
+            ng generate @angular/material:material-nav --name 'component-name'
+            </i>
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title><h2 class="mat-h2">Generator: Dashboard</h2></mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>It will create a new component that contains a dynamic grid list of cards.</p>
+            <p>
+              <i>ng generate @angular/material:material-dashboard --name 'component-name'<</i>
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title><h2 class="mat-h2">Generator: Table</h2></mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              It will create a new table component pre-configured with a datasource for sorting and pagination.
+            </p>
+            <p>
+              <code>ng generate @angular/material:material-table --name 'component-name'</code>
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+  </mat-grid-list>
+</div>
